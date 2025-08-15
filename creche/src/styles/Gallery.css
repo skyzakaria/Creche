@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fbff00;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p {
+    font-family: 'Tajawal', sans-serif;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero {
+    background: url('../images/bg.jpg') no-repeat center center/cover;
+    opacity: 75%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#services, #gallery, #contact {
+    margin-top: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #eee;
+  text-align: center;
+  width: 100%;
+  max-width: none;
+  padding: 15px 20px;
+  font-size: 0.9rem;
+  margin-top: 60px;
+}
+
+.footerTextcolor {
+  color: #fff;
+}
+
+logo_about {
+    object-position: top left;
+    size: 10%;
+}
+
+.gallery-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.gallery img {
+    width: 720px;
+    height: 720px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Maintient le ratio d'aspect des images */
+    display: none;
+}
+
+.gallery img.active {
+    display: block;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#Text_Gallery {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

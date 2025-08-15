@@ -1,0 +1,157 @@
+.admin-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fefefe;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.admin-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-form input,
+.admin-form select,
+.admin-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.admin-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.admin-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-form button:hover {
+  background-color: #0056b3;
+}
+
+.kids-list {
+  margin-top: 30px;
+}
+
+.kid-item {
+  background-color: #f8f8f8;
+  border-left: 5px solid #007bff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.kid-item.paye {
+  border-left-color: #28a745;
+}
+
+.kid-item.non-paye {
+  border-left-color: #dc3545;
+}
+
+.table-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Bouton Modifier */
+.btn-edit {
+  background-color: #ffc107;
+  color: #212529;
+}
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+/* Bouton Supprimer */
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+.edit-form {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.edit-form h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-form input,
+.edit-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.edit-form button {
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+}
+
+.edit-form button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+.edit-form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.edit-form button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+}
+.edit-form button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+p {
+  font-style: bold;
+  color: #333;
+}

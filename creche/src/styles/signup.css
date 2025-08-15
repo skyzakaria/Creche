@@ -1,0 +1,87 @@
+/* Conteneur principal du formulaire d'inscription */
+.signup-container {
+  max-width: 450px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+/* Titre */
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Champs de formulaire */
+.signup-container input,
+.signup-container select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.signup-container input:focus,
+.signup-container select:focus {
+  border-color: #fbff00;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(251, 255, 0, 0.2);
+}
+
+/* Bouton */
+.signup-container button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #fbff00;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-container button:hover {
+  background-color: #e0d500;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .signup-container {
+    margin: 40px 20px;
+    padding: 20px;
+  }
+
+  .signup-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .signup-container input,
+  .signup-container button {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  background-color: #333;
+  color: #eee;
+  padding: 15px 20px;
+  font-size: 0.9rem;
+}
+
+.footTextColor {
+  color: #fff;
+}
